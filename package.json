@@ -1,0 +1,26 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Websockets",
+  "main": "ws-server.js",
+  "scripts": {
+    "dev": "nodemon ws-server.js"
+  },
+  "keywords": [
+    "websocket",
+    "socket",
+    "node",
+    "ws"
+  ],
+  "author": {
+    "name": "Samer A.",
+    "website": "https://cleversamer.web.app"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
