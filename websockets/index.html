@@ -1,7 +1,11 @@
 <script>
   const ws = new WebSocket("ws://localhost:8000");
 
+  ws.onopen = (event) => {
+    ws.send("I am so excited I am connected!");
+  };
+
   ws.onmessage = (event) => {
-    console.log("event", event);
+    console.log(event);
   };
 </script>

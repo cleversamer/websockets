@@ -18,6 +18,10 @@ wss.on("headers", (headers, req) => {
 
 wss.on("connection", (ws, req) => {
   ws.send("Connected to websocket server!");
+
+  ws.on("message", (mssg) => {
+    console.log(mssg);
+  });
 });
 
 // Deciding app port
