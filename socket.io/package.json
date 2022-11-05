@@ -1,0 +1,28 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Samer A.",
+    "website": "https://cleversamer.web.app"
+  },
+  "main": "basics.js",
+  "scripts": {
+    "dev": "nodemon ws-server.js"
+  },
+  "keywords": [
+    "websocket",
+    "socket",
+    "node",
+    "ws",
+    "socket.io",
+    "socketio"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
