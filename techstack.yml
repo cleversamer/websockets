@@ -2,7 +2,7 @@ repo_name: cleversamerr/websockets
 report_id: 6fd822a0acdb9b0234b9469913d7dd71
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-24T12:40:10+00:00'
+timestamp: '2024-01-05T08:15:50+00:00'
 requested_by: cleversamerr
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/cleversamerr/websockets
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -55,6 +56,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/cleversamerr/websockets/blob/main/websockets/package.json
   detection_source: websockets/package.json
   last_updated_by: Samer A
   last_updated_on: 2022-11-05 17:37:02.000000000 Z
@@ -66,6 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cleversamerr/websockets
   detection_source: Repo Metadata
 - name: nodemon
   description: A simple monitor script for use during development of a node.js app
@@ -89,6 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/cleversamerr/websockets/blob/main/websockets/package.json
   detection_source: websockets/package.json
   last_updated_by: Samer A
   last_updated_on: 2022-11-05 17:37:02.000000000 Z
